@@ -6,6 +6,10 @@ def main():
 
     # Comprobamos si es mayor de edad - Estructura condicional if - else
     # Si edad mayor o igual a dieciocho --> Usted es nayor de edad
+    if edad >= 18:
+        print("Usted es mayor de edad")
+    else:
+        print("Todavía eres menor de edad")
     # Sino --> Todavía eres menor de edad
 
 if __name__== "__main__" :
